@@ -90,7 +90,7 @@ const handler = async (req: NextRequest) => {
       stream: true,
     })
 
-    return new Response(completion.body, {
+    return new Response(conversation + completion.body, {
       headers: {
         "Access-Control-Allow-Origin": "*",
         "Content-Type": "text/event-stream;charset=utf-8",
