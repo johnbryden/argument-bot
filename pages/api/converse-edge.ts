@@ -38,6 +38,8 @@ function getMessages({
       content: speech.text,
     })
   })
+  await console.log ("Hello world")
+
   return messages
 }
 
@@ -90,7 +92,6 @@ const handler = async (req: NextRequest) => {
       stream: true,
     })
 
-    await console.log ("Hello world")
 
     return new Response(completion.body, {
       status: 200,
