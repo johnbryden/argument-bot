@@ -38,7 +38,7 @@ function getMessages({
       content: speech.text,
     })
   })
-  console.log ("Hello world")
+  console.log("Hello world")
 
   return messages
 }
