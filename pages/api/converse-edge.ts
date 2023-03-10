@@ -90,7 +90,7 @@ const handler = async (req: NextRequest) => {
       stream: true,
     })
 
-    console.log ("Hello world")
+    await console.log ("Hello world")
 
     return new Response(completion.body, {
       status: 200,
