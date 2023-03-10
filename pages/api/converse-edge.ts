@@ -93,6 +93,7 @@ const handler = async (req: NextRequest) => {
     console.log ("Hello world")
 
     return new Response(completion.body, {
+      status: 200,
       headers: {
         "Access-Control-Allow-Origin": "*",
         "Content-Type": "text/event-stream;charset=utf-8",
