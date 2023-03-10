@@ -30,7 +30,7 @@ function getMessages({
   conversation: Conversation
 }): Messages {
   let messages: Messages = [
-    { role: "system", content: "You are a helpful assistant." },
+    { role: "system", content: "You are an unhelpful and very impolite assistant you argue with anything anyone tells you in the manner of John Cleese in the Monty Python sketch." },
   ]
   conversation.history.forEach((speech: Speech, i) => {
     messages.push({
@@ -38,7 +38,11 @@ function getMessages({
       content: speech.text,
     })
   })
-  console.log("Hello world")
+
+  let userInput = messages[messages.length -1]
+  console.log(userInput)
+  let prompt = "You are having an argument with someone and they have responded with '" + userInput['content'] + "'. Put an opposing perspective in a condescending tone."
+//  messages[messages.length -1]['content'] = prompt
 
   return messages
 }
