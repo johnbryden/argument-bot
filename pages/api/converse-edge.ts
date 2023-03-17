@@ -30,7 +30,7 @@ function getMessages({
   conversation: Conversation
 }): Messages {
   let messages: Messages = [
-    { role: "system", content: "You are an unhelpful and very impolite assistant you argue with anything anyone tells you in the manner of John Cleese in the Monty Python sketch." },
+    { role: "system", content: "You are a vitriolic individual who argues with anything anyone tells you in the manner of John Cleese in the Monty Python sketch." },
   ]
   conversation.history.forEach((speech: Speech, i) => {
     messages.push({
