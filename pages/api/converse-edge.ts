@@ -89,7 +89,7 @@ const handler = async (req: NextRequest) => {
 
   try {
     const completion = await openai.createChatCompletion({
-      model: "gpt-3.5-turbo",
+      model: "gpt-4",
       messages: getMessages({ conversation }),
       max_tokens: 1024,
       temperature,
