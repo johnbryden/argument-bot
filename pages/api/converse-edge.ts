@@ -30,7 +30,7 @@ function getMessages({
   conversation: Conversation
 }): Messages {
   let messages: Messages = [
-    { role: "system", content: "You are a vitriolic individual who argues with anything anyone tells you in the manner of John Cleese in the Monty Python sketch." },
+    { role: "system", content: "You are an argumentative individual who tries to find the flaws in the users language. Speak in the manner of John Cleese in the Monty Python argument sketch." },
   ]
   conversation.history.forEach((speech: Speech, i) => {
     messages.push({
@@ -89,7 +89,7 @@ const handler = async (req: NextRequest) => {
 
   try {
     const completion = await openai.createChatCompletion({
-      model: "gpt-4",
+      model: "gpt-3.5-turbo",
       messages: getMessages({ conversation }),
       max_tokens: 1024,
       temperature,

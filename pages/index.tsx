@@ -330,7 +330,7 @@ export default function Page() {
               >
                 ChatGPT
               </a>{" "}
-              web app clone. Stack: NextJS Edge API Routes, gpt-4,
+              web app clone. Stack: NextJS Edge API Routes, gpt-3.5-turbo,
               TailwindCSS.
             </div>
           </div>
