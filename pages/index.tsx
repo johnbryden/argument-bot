@@ -272,7 +272,7 @@ export default function Page() {
         ) : (
           <div className="px-3 py-12 text-center dark:text-white">
             <h1 className="text-lg font-bold">Argument Bot</h1>
-            <p className="mt-4">Start typing below 👇</p>
+            <p className="mt-4">What do you want to argue about? 👇</p>
           </div>
         )}
         <MessageBot ref={answerNode} message="" hidden={!streaming} />
@@ -346,7 +346,7 @@ export default function Page() {
                   rel="noreferrer"
                   className="underline"
                 >
-                  Derived from
+                  Original clone
                 </a>
               </div>
             )}
