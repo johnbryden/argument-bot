@@ -255,10 +255,10 @@ export default function Page() {
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>CloneGPT</title>
-        <meta name="description" content="A basic clone of ChatGPT" />
-        <meta name="og:title" content="CloneGPT" />
-        <meta name="og:url" content="https://clone-gpt.vercel.app/" />
+        <title>Argument bot</title>
+        <meta name="description" content="A basic ChatBot that argues with you" />
+        <meta name="og:title" content="Argument bot" />
+        <meta name="og:url" content="https://argument-bot.vercel.app/" />
       </Head>
       <main className="relative flex w-full flex-col items-center overflow-hidden pb-24 text-sm md:pb-40">
         {conversation.history.length > 0 ? (
@@ -271,7 +271,7 @@ export default function Page() {
           )
         ) : (
           <div className="px-3 py-12 text-center dark:text-white">
-            <h1 className="text-lg font-bold">CloneGPT</h1>
+            <h1 className="text-lg font-bold">Argument Bot</h1>
             <p className="mt-4">Start typing below 👇</p>
           </div>
         )}
@@ -333,21 +333,20 @@ export default function Page() {
             ) : (
               <div className="space-x-2 text-center text-xs text-black/50 dark:text-white/50 md:px-4 md:pt-3 md:pb-6">
                 <a
-                  href="https://github.com/dan-kwiat/chat-gpt-clone"
+                  href="https://github.com/johnbryden/argument-bot"
                   target="_blank"
                   rel="noreferrer"
                   className="underline"
                 >
                   GitHub Repo
                 </a>{" "}
-                <span>&middot;</span>{" "}
                 <a
-                  href="https://dan.kwiat.info/projects"
+                  href="https://github.com/dan-kwiat/chat-gpt-clone"
                   target="_blank"
                   rel="noreferrer"
                   className="underline"
                 >
-                  More Projects
+                  Derived from
                 </a>
               </div>
             )}
