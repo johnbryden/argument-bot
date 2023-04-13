@@ -51,6 +51,11 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
+"@microsoft/fetch-event-source@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@microsoft/fetch-event-source/-/fetch-event-source-2.0.1.tgz#9ceecc94b49fbaa15666e38ae8587f64acce007d"
+  integrity sha512-W6CLUJ2eBMw3Rec70qrsEW0jOm/3twwJv21mrmj2yORiaVmVYGS4sSS5yUwvQc1ZlDLYGPnClVWmUUMagKNsfA==
+
 "@next/env@13.1.1":
   version "13.1.1"
   resolved "https://registry.yarnpkg.com/@next/env/-/env-13.1.1.tgz#6ff26488dc7674ef2bfdd1ca28fe43eed1113bea"
@@ -1610,10 +1615,10 @@ open@^8.4.0:
     is-docker "^2.1.1"
     is-wsl "^2.2.0"
 
-openai-edge@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/openai-edge/-/openai-edge-0.3.0.tgz#c60a03d2a844dd2b8d9361c6150500df8a13d014"
-  integrity sha512-WYZLjf5IUP8WYNnnz7WkYX/zjsJZx2+hrMYl66urvIhgCQ9KVrXzCcZVacEOb3cY/gugRUZe8UC+n/yfBy2Ijg==
+openai-edge@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/openai-edge/-/openai-edge-0.4.0.tgz#d2b2ff6d07e4f60f8c63d9616788577f478947bc"
+  integrity sha512-91Bz00ZN7Kz8gLgLDcVNGixwtQsRRCg5KIvgwf04K+q5SCIb1+I5BMGNvoZGgDxml5Yo5OBfHsiYCBIW53RZ9w==
 
 optionator@^0.9.1:
   version "0.9.1"
@@ -1754,6 +1759,16 @@ prelude-ls@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.2.1.tgz#debc6489d7a6e6b0e7611888cec880337d316396"
   integrity sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==
+
+prettier-plugin-tailwindcss@^0.2.6:
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-tailwindcss/-/prettier-plugin-tailwindcss-0.2.6.tgz#d57e3d960f1a968bf16d2a5846e94f95d6b8add2"
+  integrity sha512-F+7XCl9RLF/LPrGdUMHWpsT6TM31JraonAUyE6eBmpqymFvDwyl0ETHsKFHP1NG+sEfv8bmKqnTxEbWQbHPlBA==
+
+prettier@^2.8.7:
+  version "2.8.7"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.7.tgz#bb79fc8729308549d28fe3a98fce73d2c0656450"
+  integrity sha512-yPngTo3aXUUmyuTjeTUT75txrf+aMh9FiD7q9ZE/i6r0bPb22g4FsE6Y338PQX1bmfy08i9QQCB7/rcUAVntfw==
 
 prop-types@^15.8.1:
   version "15.8.1"
